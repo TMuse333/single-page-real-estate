@@ -2,7 +2,6 @@ import Image from "next/image";
 import React, { useState, useRef, useEffect } from "react";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 import {motion, useInView} from 'framer-motion'
-import { useGeneralContext } from "@/context/context";
 
 interface ListAspects {
     src:string,
@@ -29,8 +28,7 @@ parentInView
       const ref = useRef(null)
 
       const inView = useInView(ref,{
-        once:true,
-        amount:0.3
+        
       })
     
       const slideInVariants = (delay:number) => {
@@ -53,14 +51,12 @@ parentInView
         }
       }
 
-      const {isMobile} = useGeneralContext()
-
     return (
 
         <motion.div  ref={ref}
         variants={slideInVariants(index * 0.15)}
         initial='initial'
-        animate={(!isMobile && parentInView) || inView ? 'animate' : 'initial'}
+        animate={parentInView && inView ? 'animate' : 'initial'}
         className="bg-gray-300 rounded-3xl overflow-hidden">
         <button
           className="w-full flex justify-between items-center text-left text-white p-4 font-semibold bg-gray-600 rounded-t-lg focus:outline-none"

@@ -60,7 +60,7 @@ parentInView
         <motion.div  ref={ref}
         variants={slideInVariants(index * 0.15)}
         initial='initial'
-        animate={(!isMobile && parentInView) || inView ? 'animate' : 'initial'}
+        animate={(!isMobile parentInView && inView ? 'animate' : 'initial'}
         className="bg-gray-300 rounded-3xl overflow-hidden">
         <button
           className="w-full flex justify-between items-center text-left text-white p-4 font-semibold bg-gray-600 rounded-t-lg focus:outline-none"

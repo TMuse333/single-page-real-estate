@@ -132,7 +132,7 @@ const CountUpImageText:React.FC<Props> = ({
               variants={fadeInVariants(0.1)}
               initial="initial"
               animate={inView ? "animate" : "initial"}
-              className="text-black md:px-4 font-semibold mb-6 mt-4 md:mt-0"
+              className="text-black md:px-4 font-semibold mb-6"
             >
               {description}
             </motion.p>

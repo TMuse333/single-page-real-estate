@@ -27,7 +27,7 @@ const CountUpImageText:React.FC<Props> = ({
     const ref = useRef(null)
 
     const inView = useInView(ref,{
-        amount:!isMobile ? 1 : 0.4,
+        amount:1,
         once:true
     })
 
@@ -132,15 +132,14 @@ const CountUpImageText:React.FC<Props> = ({
               variants={fadeInVariants(0.1)}
               initial="initial"
               animate={inView ? "animate" : "initial"}
-              className="text-black md:px-4 font-semibold mb-6 mt-4 md:mt-0"
+              className="text-black md:px-4 font-semibold mb-6"
             >
               {description}
             </motion.p>
     
             <section
             ref={ref2} 
-            className="flex mx-auto flex-col justify-center items-center  mt-4 md:flex-row font-semibold md:mr-auto md:ml-4
-            ">
+            className="flex mx-auto flex-col justify-center items-center md:mt-4 md:flex-row font-semibold md:mr-auto md:ml-4">
               {/* Stats Loop */}
               <div className="text-2xl mb-6 flex flex-col justify-start items-start">
                 {stats.map((stat, index) => {
