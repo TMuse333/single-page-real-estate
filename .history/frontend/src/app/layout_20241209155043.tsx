@@ -16,7 +16,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Focus Flow Single page real estate website",
-  description: "A single page website for real estate agents",
+  description: "A single page",
 };
 
 export default function RootLayout({
