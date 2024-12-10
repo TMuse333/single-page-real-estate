@@ -40,7 +40,7 @@ export default function Home() {
     number3="20"/> */}
 
     <ScaleImage
-    src={home2.src}
+    src={home.src}
     alt={'slat'}
     />
 

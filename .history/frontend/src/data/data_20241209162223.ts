@@ -177,25 +177,25 @@ export const interactiveBoxes = [
   {
     src: "/home3.webp",
     alt: "Box 1",
-    description: "Property 1",
+    description: "Description for Box 1",
     button: "Learn More",
   },
   {
     src: "/home4.webp",
     alt: "Box 2",
-    description: "Property 2",
+    description: "Description for Box 2",
     button: "Explore Now",
   },
   {
     src: "/home5.webp",
     alt: "Box 3",
-    description: "Property 3",
+    description: "Description for Box 3",
     button: "Get Started",
   },
   {
     src: "/home6.webp",
     alt: "Box 3",
-    description: "Property 4",
+    description: "Description for Box 3",
     button: "Get Started",
   },
   // Add more boxes as needed

@@ -48,9 +48,6 @@ import { useGeneralContext } from "@/context/context";
 
 const ApplicationForm = () => {
 
-    const fakeSubmit = () => {
-        alert('')
-    }
 
     const { applicationFormState, setApplicationFormState } = useGeneralContext()
 
@@ -121,8 +118,7 @@ const ApplicationForm = () => {
                 <InputForm
                 questions={applicationQuestions}
                 />
-                <button 
-                // onClick={handleSubmit}
+                <button onClick={handleSubmit}
                 className="bg-blue-400 p-3 rounded-xl
                 ml-9 mb-8">
                     Submit form

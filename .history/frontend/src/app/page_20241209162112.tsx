@@ -16,7 +16,7 @@ import BigNav from "../components/navbar/bigNav";
 import Footer2 from "../components/footer/footer";
 import ContactCard from "../components/contactCard/contactCard";
 import Herobanner from "@/components/herobanner/herobanner";
-import home2 from '../../public/home2.webp'
+import home2 from '../../public/home.webp'
 import ScaleImage from "@/components/scaleImage/scaleImage";
 import InteractiveBoxes from "@/components/interactiveDisplayBox/interactiveDisplayBox";
 import TestimonialSlider from "@/components/testimonialSlider/testimonialSlider";
@@ -40,7 +40,7 @@ export default function Home() {
     number3="20"/> */}
 
     <ScaleImage
-    src={home2.src}
+    src={home.src}
     alt={'slat'}
     />
 

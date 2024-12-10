@@ -195,7 +195,7 @@ export const interactiveBoxes = [
   {
     src: "/home6.webp",
     alt: "Box 3",
-    description: "Property 4",
+    description: "Propr",
     button: "Get Started",
   },
   // Add more boxes as needed

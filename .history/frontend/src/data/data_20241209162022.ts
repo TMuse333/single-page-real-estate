@@ -175,27 +175,27 @@ export const contactCard = {
 
 export const interactiveBoxes = [
   {
-    src: "/home3.webp",
+    src: "/home.webp",
     alt: "Box 1",
-    description: "Property 1",
+    description: "Description for Box 1",
     button: "Learn More",
   },
   {
-    src: "/home4.webp",
+    src: "/home.webp",
     alt: "Box 2",
-    description: "Property 2",
+    description: "Description for Box 2",
     button: "Explore Now",
   },
   {
-    src: "/home5.webp",
+    src: "/home.webp",
     alt: "Box 3",
-    description: "Property 3",
+    description: "Description for Box 3",
     button: "Get Started",
   },
   {
-    src: "/home6.webp",
+    src: "/home.webp",
     alt: "Box 3",
-    description: "Property 4",
+    description: "Description for Box 3",
     button: "Get Started",
   },
   // Add more boxes as needed
@@ -204,7 +204,7 @@ export const interactiveBoxes = [
 
 
 export const countUpImageText = {
-  src:'/home7.webp',
+  src:'/home.webp',
   alt:'home',
   title:'lorem lorem isum ipsum',
   description:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, autem deserunt. Ab molestias et excepturi, at dignissimos repellat, dolorum amet velit ipsam id voluptate! Voluptatibus!',
@@ -244,7 +244,7 @@ export const textListData = {
       description: "Explore how this feature enhances usability and creates a more engaging platform for users while maintaining efficiency and clarity.",
     },
     {
-      src: "/home5.webp",
+      src: "/home.webp",
       alt: "Feature Three Image",
       title: "Feature Three",
       description: "An essential part of our system, this feature is designed to improve accessibility and foster better connections across various use cases.",
