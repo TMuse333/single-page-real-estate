@@ -215,7 +215,7 @@ interface Props {
                opacity:inView ? 1 : 0,
                y: inView ? 0 : 50
              }}
-             className='relative text-2xl bg-gradient-to-b from-gray-800 to-gray-400 bg-clip-text text-transparent 
+             className='relative text-2xl bg-gradient-to-b from-gray-800 to-gray-r00 bg-clip-text text-transparent 
             text-4xl sm:text-5xl font-semibold text-center'>
                 {title}
             </motion.h2>

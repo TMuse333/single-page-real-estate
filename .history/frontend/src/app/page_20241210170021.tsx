@@ -60,8 +60,7 @@ export default function Home() {
     />
 
     <CircleInfoGraphic
-    title="Place your title here"
-    description="This component is great when you have lots of points you want to get across"
+    title=""
     images={infographic}
     />
 

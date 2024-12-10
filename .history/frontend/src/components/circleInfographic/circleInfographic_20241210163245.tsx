@@ -111,7 +111,7 @@ const componentRef = useRef(null)
             initial='initial'
             animate={inView ? 'animate' : 'initial'}
             onAnimationComplete={()=>setAnimationComplete(true)}
-            src={image}
+            src={image.src}
             fetchPriority="low"
             alt='the alt'
             width={600}
@@ -215,7 +215,7 @@ interface Props {
                opacity:inView ? 1 : 0,
                y: inView ? 0 : 50
              }}
-             className='relative text-2xl bg-gradient-to-b from-gray-800 to-gray-400 bg-clip-text text-transparent 
+             className='relative text-2xl bg-gradient-to-b from-white to-gray-300 bg-clip-text text-transparent 
             text-4xl sm:text-5xl font-semibold text-center'>
                 {title}
             </motion.h2>
@@ -232,7 +232,7 @@ interface Props {
               }
             }}
              className='text-left relative z-[20]  md:text-center md:text-2xl pl-4 pr-5 mt-[2rem]
-             mb-[2rem] text-black
+             mb-[2rem]
            w-[100%] max-w-[900px] ml-auto mr-auto'>
             {description}</motion.p>
             </>
@@ -255,7 +255,7 @@ interface Props {
                 index={index}
                 title={image.title}
                 description={image.description}
-                image={image.src}
+                image={image}
                 key={index}
                 titleInView={inView}
                 />

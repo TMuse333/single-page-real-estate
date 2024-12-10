@@ -25,7 +25,6 @@ import CountUpImageText from "@/components/countUpImageText/countUpImageText";
 import TextAndList from "@/components/textAndList/textAndList";
 import ApplicationForm from "@/components/applicationForm/applicationForm";
 import CircleInfoGraphic from "@/components/circleInfographic/circleInfographic";
-import Footer from "@/components/footer2/footer";
 export default function Home() {
   return (
     <>
@@ -60,8 +59,6 @@ export default function Home() {
     />
 
     <CircleInfoGraphic
-    title="Place your title here"
-    description="This component is great when you have lots of points you want to get across"
     images={infographic}
     />
 
@@ -111,7 +108,9 @@ export default function Home() {
 
     <ApplicationForm/>
 
-    <Footer/>
+    <Footer2
+    excludedLink=""
+    />
 
 
    </main>

@@ -7,7 +7,7 @@ import ExperienceCard from "../components/experienceCard/experienceCard";
 import { experienceCard1, experienceCard2 ,experienceCard3,
  displayBox1, displayBox2,blogData, closingStatement, contactCard,
 interactiveBoxes,countUpImageText, textListData,
-infographic} from "@/data/data";
+c} from "@/data/data";
 // import ImageTextBox from "./components/imageTextBox/imageTextBox";
 import DisplayBoxes from "../components/displayBox/displayBox";
 import Testimonials from "../components/testimonials/testimonials";
@@ -25,7 +25,6 @@ import CountUpImageText from "@/components/countUpImageText/countUpImageText";
 import TextAndList from "@/components/textAndList/textAndList";
 import ApplicationForm from "@/components/applicationForm/applicationForm";
 import CircleInfoGraphic from "@/components/circleInfographic/circleInfographic";
-import Footer from "@/components/footer2/footer";
 export default function Home() {
   return (
     <>
@@ -60,10 +59,7 @@ export default function Home() {
     />
 
     <CircleInfoGraphic
-    title="Place your title here"
-    description="This component is great when you have lots of points you want to get across"
-    images={infographic}
-    />
+    images={circleInfo}
 
     {/* <TestimonialSlider
     /> */}
@@ -111,7 +107,9 @@ export default function Home() {
 
     <ApplicationForm/>
 
-    <Footer/>
+    <Footer2
+    excludedLink=""
+    />
 
 
    </main>

@@ -266,56 +266,8 @@ export const textListData = {
 
 
 export const infographic = [
-  {
-    src: "/home.webp",
-    alt: "Feature One Image",
-    title: "Feature One",
-    description: "Trust our expertise to guide you through every step of the buying or selling process with ease and confidence.",
-  },
-  {
-    src: "/home.webp",
-    alt: "Feature Two Image",
-    title: "Feature Two",
-    description: "Benefit from personalized service tailored to your unique needs and real estate goals.",
-  },
-  {
-    src: "/home.webp",
-    alt: "Feature Three Image",
-    title: "Feature Three",
-    description: "Leverage our in-depth market knowledge to get the best value for your property or find your dream home.",
-  },
-  {
-    src: "/home.webp",
-    alt: "Feature Four Image",
-    title: "Feature Four",
-    description: "Rely on our proven track record of success to ensure a seamless and stress-free experience.",
-  },
-  {
-    src: "/home.webp",
-    alt: "Feature Five Image",
-    title: "Feature Five",
-    description: "Gain access to cutting-edge tools and marketing strategies that maximize exposure and results.",
-  },
-  {
-    src: "/home.webp",
-    alt: "Feature Six Image",
-    title: "Feature Six",
-    description: "Work with a team dedicated to clear communication, keeping you informed every step of the way.",
-  },
-  {
-    src: "/home.webp",
-    alt: "Feature Seven Image",
-    title: "Feature Seven",
-    description: "Count on our negotiation skills to ensure you get the best possible deal in every transaction.",
-  },
-  {
-    src: "/home.webp",
-    alt: "Feature Eight Image",
-    title: "Feature Eight",
-    description: "Choose a partner committed to making your real estate journey smooth, successful, and rewarding.",
-  },
-];
-
-
-
-
+  title:string,
+  src:StaticImageData,
+  description:string,
+  alt:string
+]
